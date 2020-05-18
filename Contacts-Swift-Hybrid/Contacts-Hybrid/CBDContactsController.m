@@ -17,11 +17,11 @@
 // lazy array
 // when we use readonly and getter is overridden, we need to synthezise variable
 @synthesize contacts = _contacts;
-- (NSArray<CBDContact *> *)contacts {
+- (NSArray<Contact *> *)contacts {
     if (!_contacts) {
         _contacts = @[
-            [[CBDContact alloc] initWithName:@"Christopher" relationship:@"Me"],
-            [[CBDContact alloc] initWithName:@"Lucas" relationship:@"Son"],
+            [[Contact alloc] initWithName:@"Christopher" relationship:@"Me"],
+            [[Contact alloc] initWithName:@"Lucas" relationship:@"Son"],
         ];
     }
     return _contacts;
