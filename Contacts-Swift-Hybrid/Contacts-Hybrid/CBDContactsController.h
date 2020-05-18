@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@class Contact;
+@class CBDContact;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CBDContactsController : NSObject
 
-@property (nonatomic, readonly) NSArray<Contact *> *contacts;
+@property (nonatomic, readonly) NSArray<CBDContact *> *contacts;
 
 @end
 

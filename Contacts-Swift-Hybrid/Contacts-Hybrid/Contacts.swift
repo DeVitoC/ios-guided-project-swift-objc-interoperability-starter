@@ -10,6 +10,8 @@ import Foundation
 
 // Must be a class to work with Obj-C
 // Must subclass from NSObject to work with Obj-C
+// We can rename class, properties, and methods using @objc(newNameForObjc)
+@objc(CBDContact)
 class Contact: NSObject {
     @objc var name: String
     @objc var relationship: String?
