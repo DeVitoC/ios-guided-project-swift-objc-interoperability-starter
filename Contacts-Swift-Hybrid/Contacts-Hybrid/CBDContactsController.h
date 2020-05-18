@@ -11,6 +11,7 @@
 @class Contact;
 NS_ASSUME_NONNULL_BEGIN
 
+NS_SWIFT_NAME(ContactController)
 @interface CBDContactsController : NSObject
 
 @property (nonatomic, readonly) NSArray<Contact *> *contacts;
